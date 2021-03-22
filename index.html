@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keyword" content="reply about runball,Run Ball,RunBall" >
+	<meta name="description" content="RUN BALL game on website http://ramizgames.itch.io/runball">
+	<title>RUN BALL</title>
+	<link rel="icon" type="icon/png" href="runball_logo.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1><a target="_blank" href="http://ramizgames.itch.io/runball">Run Ball</a> bug report</h1>
+	<div id="form">
+	<input type="text" name="Subject" placeholder="Your name" id="subject"><br>
+	<textarea type="text"  name="Body" placeholder="and bugs you have found" id="body"></textarea>
+	<div><a href=""	id="a"><button onclick="send()">SEND</button></a></div>
+	</div>
+	<script type="text/javascript">
+		function send() {
+			var subject = document.getElementById("subject").value
+			var body = document.getElementById("body").value
+			var tsubject= subject.trim();
+			var tbody = body.trim();
+			if (tsubject==""||tbody=="") {
+				document.getElementById('a').href = "#"
+			}
+			else{
+				document.getElementById('a').href = "mailto:ramizqurbanli2@gmail.com?subject="+"From RunBall"+subject+"&body="+body
+			}
+			
+		}
+	
+	</script>
+</body>
+</html>
