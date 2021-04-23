@@ -1,6 +1,7 @@
 ::selection{
 	color: red;
 	background-color: blue;
+}	
 ::-webkit-scrollbar-thumb {
   background: black; 
   border-radius: 5px;
