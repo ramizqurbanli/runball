@@ -1,2 +1,2 @@
 # runball
-bug report page for https://ramizgames.itch.io/runball
+bug report page for https://ramizqurbanli.itch.io/runball
