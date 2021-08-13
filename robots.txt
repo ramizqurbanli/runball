@@ -1,2 +1,2 @@
-User-Agent:*
-Disallow:/index.html
+User-Agent: *
+Disallow: /index.html
